@@ -7,9 +7,8 @@
     </v-layout>
     <v-layout align-center justify-center row wrap>
       <div class="display-2 mt-2 mb-2">Made with <span class="success--text">Vuejs, Vuex , Vuetify and VueDraggable</span></div>
-      <div class="mb-4 subheading">The Cards on all pages are draggable and can be moved around.</div>
     </v-layout>
-    <v-layout align-center justify-center row fill-height>
+    <v-layout align-center justify-center row fill-height class="mt-3">
       <v-flex xs12 md6 lg6>
         <v-hover>
           <v-card slot-scope="{hover}" :class="`elevation-${hover ? 12 : 20}`">

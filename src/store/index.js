@@ -38,9 +38,9 @@ export default new Vuex.Store({
       {id:6, Title: 'BizLand', Description: 'Landing Page for your Business Needs.', href: 'https://paarth1995.github.io/BizLand/', src: 'https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' },
     ],
     vueProjects: [
-      {id:1, Title:'Netflix App', Description:'Inspired by Netflix', href: '', src:'https://images.pexels.com/photos/2726370/pexels-photo-2726370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
-      {id:2, Title: 'Google Maps App', Description: 'Full Stack App using Firebase, Google API and Authentication', href: '', src:'https://images.pexels.com/photos/3243090/pexels-photo-3243090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
-      {id:3, Title: 'Instagram Uploader App', Description: 'Full Stack App to upload Images and set Filters', href:'', src: 'https://images.pexels.com/photos/238480/pexels-photo-238480.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'},
+      {id:1, Title:'Netflix App', Description:'Netflix inspired app with user landing page and a Billboard page.', href: 'https://vue-netflix.herokuapp.com/', src:'https://images.pexels.com/photos/2726370/pexels-photo-2726370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
+      {id:2, Title:'Contact Manager App', Description:'Basic CRUD App to manage your Contacts.', href: 'https://vue-contacts.herokuapp.com/', src:'https://images.pexels.com/photos/6330/smartphone-notebook-technology-calendar.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
+      {id:3, Title:'Instagram Uploader App', Description:'Made with CSSGram, FileReader API, VueDragScroll. Click on + to upload images.', href:'https://vue-insta-clone.herokuapp.com/', src: 'https://images.pexels.com/photos/238480/pexels-photo-238480.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'},
     ],
     reactProjects: [
       {id:1, Title:'Project 1', Description:'Description 1', href: '', src:'https://images.pexels.com/photos/1362484/pexels-photo-1362484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
