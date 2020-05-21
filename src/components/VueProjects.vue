@@ -1,7 +1,7 @@
 <template>
     <v-container grid-list-md text-xs-center>
         <draggable v-model="draggableCards" tag="v-layout" class="row wrap">
-            <v-flex xs4 v-for="(tech, index) in getVueProjects" :key="index" class="px-3 my-2">
+            <v-flex md4 xs12 v-for="(tech, index) in getVueProjects" :key="index" class="px-3 my-2">
                 <a :href="tech.href" target="_blank" style="color:transparent">
                 <card-container :name="tech.Title" :id="tech.id" :src="tech.src"
                     :description="tech.Description"/>

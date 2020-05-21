@@ -17,14 +17,14 @@ export default new Vuex.Store({
       {
         id: 2,
         name: 'VueJS',
-        Description: 'Built using VueJS. Click to View',
-        src: 'https://madewithvuejs.com/mandant/madewithvuejs/images/logo.png',
+        Description: 'Built using VueJS and Vuex. Click to View',
+        src: 'https://embedwistia-a.akamaihd.net/deliveries/94f832d46068653bd0a890bc3bc301e5.webp?image_crop_resized=1280x720',
         to: '/vue'
       },
       {
         id: 3,
         name: 'ReactJS',
-        Description: 'Built using ReactJS. Click to View.',
+        Description: 'Built using ReactJS and Redux. Click to View.',
         src: 'https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png',
         to: '/react'
       }
@@ -39,12 +39,12 @@ export default new Vuex.Store({
     ],
     vueProjects: [
       {id:1, Title:'Netflix App', Description:'Netflix inspired app with user landing page and a Billboard page.', href: 'https://vue-netflix.herokuapp.com/', src:'https://images.pexels.com/photos/2726370/pexels-photo-2726370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
-      {id:2, Title:'Contact Manager App', Description:'Basic CRUD App to manage your Contacts.', href: 'https://vue-contacts.herokuapp.com/', src:'https://images.pexels.com/photos/6330/smartphone-notebook-technology-calendar.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
+      {id:2, Title:'Contact Manager App', Description:'Simple Vuex based CRUD App to manage your Contacts.', href: 'https://vue-contacts.herokuapp.com/', src:'https://images.pexels.com/photos/6330/smartphone-notebook-technology-calendar.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
       {id:3, Title:'Instagram Uploader App', Description:'Made with CSSGram, FileReader API, VueDragScroll. Click on + to upload images.', href:'https://vue-insta-clone.herokuapp.com/', src: 'https://images.pexels.com/photos/238480/pexels-photo-238480.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'},
     ],
     reactProjects: [
       {id:1, Title:'Project 1', Description:'Description 1', href: '', src:'https://images.pexels.com/photos/1362484/pexels-photo-1362484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
-      {id:2, Title:'Project 2', Description:'Description 2', href: '', src:'https://images.pexels.com/photos/3155674/pexels-photo-3155674.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
+      {id:2, Title:'Face Detector App', Description:'Smart Front end App that detects faces on an image.Uses Clarifai Face API.', href: '', src:'https://images.pexels.com/photos/3960770/pexels-photo-3960770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
       {id:3, Title:'Project 3', Description:'Description 3', href: '', src:'https://images.pexels.com/photos/3622619/pexels-photo-3622619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'},
     ]
   },

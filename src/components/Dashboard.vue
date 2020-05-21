@@ -1,6 +1,6 @@
 <template>
-  <v-container>
-    <v-layout align-center justify-center row fill-height>
+  <v-container grid-list-md text-xs-center>
+    <v-layout align-center justify-center row wrap>
       <v-avatar size="150px">
         <v-img src="https://madewithvuejs.com/mandant/madewithvuejs/images/logo.png"></v-img>
       </v-avatar>
@@ -35,8 +35,8 @@
         </v-hover>
       </v-flex>
     </v-layout>
-    <draggable tag="v-layout" v-model="specialCards" class="mt-5">
-          <v-flex xs4 v-for="(tech, index) in getTechStack"  :key="index" class="mx-5">
+    <draggable tag="v-layout" v-model="specialCards" class="mt-5 row wrap">
+          <v-flex md4 xs12 v-for="(tech, index) in getTechStack" :key="index" class="px-4">
           <card-container :name="tech.name" :id="tech.id" :src="tech.src" :link="tech.to"
             :description="tech.Description" />
           </v-flex>
